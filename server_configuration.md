@@ -121,7 +121,50 @@ a2dissite yourdomain.net
 service apache2 reload
 ```
 
+### Install and Configure MySQL Database Server
+MySQL is a very popular databse system which is very fast, reliable and easy to use. Many popular website rely on MySQL like Google, Facebook… Most open source PHP scripts like WordPress, Movable Type, Drupal, Joomla, Mambo use MySQL.
 
+To install MySQL databse server on Debian
+```
+apt-get install mysql-server mysql-client
+```
+
+Unlike installing MySQL server on Centos, during the installation MySQL server on Debian, you will be asked to input MySQL root user password, but you should use mysql_secure_installation to make your MySQL server more secure (remove remote access, remove anonymous user and more).
+```
+mysql_secure_installation
+```
+
+### Install and Configuring PHP
+PHP is a server scripting language, it can handle business logic with conditionals, loops, arrays and object. PHP is great when you are working with a database, you can store all informatioin in a database and use PHP program/scipt to fetch the information details from the datbase to display them in the user browser. You have apache we server installed which can handle html, and MySQL database server, to make PHP works in your web server and mysql, you have to install few PHP packages.
+```
+apt-get install php5 php-pear php5-mysql php5-dev libapache2-mod-php5 php5-dev php5-curl php5-gd php5-imagick php5-mcrypt
+```
+
+To confirm PHP is working, create a test php file in one of your domain
+```
+nano /home/fuji/public_html/yourdomain.com/info.php
+```
+with the content
+```php	
+<?php phpinfo(); ?>
+```
+
+### Install phpMyAdmin
+phpMyAdmin is a free software to manage MySQL databases. Written in PHP, you can create, drop, import, export, optimize tables, repair tables, even run queries with phpMyAdmin.
+```
+apt-get install phpmyadmin
+```
+after that you can use phpmyadmin via http://yourdomain.com/phpmyadmin
+
+### To install Perl on Debian 7 wheezy
+```
+apt-get install install perl libapache2-mod-perl2
+```
+
+### To install Python on Debian 7 wheezy
+```
+apt-get install python libapache2-mod-python
+```
 
 
 
