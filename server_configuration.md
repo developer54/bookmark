@@ -6,3 +6,28 @@ Before installing anything to your system, make sure your Debian 7 system is upd
 ```
 apt-get && apt-get upgrade -y
 ```
+
+Say Yes or Y to install apache2 package and other extra required packages. After you installed apache2 and the extra packages, apache2 web server will start automatically for you.
+
+### Enable mod_rewrite for Apache 2 on Debian
+```
+a2enmod rewrite
+```
+
+### Restart Apache2 to activate mod_rewrite
+```
+service apache2 restart
+```
+
+### Creating user and setting up Virtual Hosts
+If you host multiple websites or have multiple users, you will have to setup separate Virtual Hosts or each user or website.
+
+To add new user on Debian Linux (replace yourusername to whatever you like)
+```
+adduser yourusername
+```
+
+To set password for new user (you will be asked to type in your password twice)
+```
+passwd yourusername
+```
