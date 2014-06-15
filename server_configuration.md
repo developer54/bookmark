@@ -7,6 +7,12 @@ Before installing anything to your system, make sure your Debian 7 system is upd
 apt-get && apt-get upgrade -y
 ```
 
+### Install and Configure Apache Web Server
+Installing Apache webserver fisrt
+```
+apt-get install apache2 apache2-doc
+```
+
 Say Yes or Y to install apache2 package and other extra required packages. After you installed apache2 and the extra packages, apache2 web server will start automatically for you.
 
 ### Enable mod_rewrite for Apache 2 on Debian
