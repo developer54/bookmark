@@ -8,7 +8,12 @@ GCC Compiler
 apt-get install php5-dev php5-mysql gcc libpcre3-dev
 ```
 
-Download and compiling phalcon
+## Installing Git
+```
+apt-get install git-core
+```
+
+### Download and compiling phalcon
 ```
 git clone --depth=1 git://github.com/phalcon/cphalcon.git
 cd cphalcon/build
