@@ -8,7 +8,7 @@ GCC Compiler
 apt-get install php5-dev php5-mysql gcc libpcre3-dev
 ```
 
-## Installing Git
+### Installing Git
 ```
 apt-get install git-core
 ```
