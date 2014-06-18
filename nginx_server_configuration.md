@@ -144,5 +144,5 @@ restart php-fpm
 /etc/init.d/php5-fpm restart
 ```
 
-### Convert your .htaccess to nginx conf file
+### Convert apache .htaccess to nginx conf file
 [http://winginx.com/en/htaccess](http://winginx.com/en/htaccess)
