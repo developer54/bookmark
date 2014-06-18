@@ -87,7 +87,7 @@ To add Vhost
 Just create
 ```
 nano /etc/nginx/site-available/your_domain.com
-``
+```
 edit nginx conf file
 ```
 server {
