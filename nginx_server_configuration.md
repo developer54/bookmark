@@ -134,3 +134,12 @@ for sec reason, you can create new user for every domain
 adduser your_user_name
 ```
 then link your vhost to your user_name /home dir
+
+### Installing mcrypt
+```
+apt-get install php5-mcrypt
+```
+restart php-fpm
+```
+/etc/init.d/php5-fpm restart
+```
