@@ -128,3 +128,9 @@ restart nginx
 ```
 /etc/init.d/nginx restart
 ```
+
+for sec reason, you can create new user for every domain
+```
+adduser your_user_name
+```
+then link your vhost to your user_name /home dir
