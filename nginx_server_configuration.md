@@ -139,6 +139,11 @@ then link your vhost to your user_name /home dir
 ```
 apt-get install php5-mcrypt
 ```
+### Installing GD Library (for picture)
+```
+apt-get install php5-gd
+```
+
 restart php-fpm
 ```
 /etc/init.d/php5-fpm restart
