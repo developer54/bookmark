@@ -143,6 +143,10 @@ apt-get install php5-mcrypt
 ```
 apt-get install php5-gd
 ```
+### Installing Postfix for email
+```
+apt-get install postfix
+```
 
 restart php-fpm
 ```
