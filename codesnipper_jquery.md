@@ -1,5 +1,5 @@
 ### validate email
-```
+```jquery
 function validateEmail($email) {
           var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
               if( !emailReg.test( $email ) ) {
