@@ -20,3 +20,7 @@ base64 - the type of encoding
 PD94bWwgd... - the encoded data
 
 data - name of the scheme
+
+### base64 encoding tools
+
+[b64.io] (http://b64.io/)
