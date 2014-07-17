@@ -27,6 +27,6 @@ data - name of the scheme
 * [Data URI Converter] (http://datauriconverter.appspot.com/)
 * [AskApache's Base64 encoder/decoder] (http://www.askapache.com/online-tools/base64-image-converter/)
 * [Web Coders Tools] ( http://webcodertools.com/imagetobase64converter)
-* [Image2Base64] (http://image2base64.wemakesites.net/
+* [Image2Base64] (http://image2base64.wemakesites.net/)
 * [duri.me] (http://duri.me/)
 * [dataurl.net] (http://dataurl.net/#dataurlmaker)
